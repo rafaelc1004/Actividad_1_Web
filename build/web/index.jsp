@@ -13,75 +13,36 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
 
-
         <title>JSP Page</title>
     </head>
+
     <body>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="card col-md-6">
-                    <p>Registro de Orden</p>
-                    <form>
-                        <div class="mb-3">
-                            <label for="rut" class="form-label">Rut:</label>
-                            <input type="text" class="form-control" id="rut" placeholder="Ej. 12345678k" name="rut">
-                        </div>
-                        <div class="mb-3">
-                            <label for="nombres" class="form-label">Nombres:</label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Ej. Juanito Perez" name="nombres">
-                        </div><!-- comment -->
-                        <div class="mb-3">
-                            <label for="direccion" class="form-label">Direccion:</label>
-                            <input type="text" class="form-control" id="direccion" placeholder="Ej. australia #88" name="direccion">
-                        </div>    
-                        <div class="mb-3">
-                            <label for="telefono" class="form-label">Telefono:</label>
-                            <input type="text" class="form-control" id="telefono" placeholder="Ej. 912345678" name="telefono">
-                        </div>
-                        <div class="mb-3">
-                            <label for="electrodomestico" class="form-label">Electrodomestico Defectuoso:</label>
-                            <input type="text" class="form-control" id="electrodomestico" placeholder="Ej. Lavadora" name="electrodomestico">
-                        </div>
-                        <div class="mb-3">
-                            <label for="fecha_solicitud" class="form-label">Fecha de solicitud:</label>
-                            <input type="date" class="form-control" id="fecha_solicitud" name="fecha_solicitud">
-                        </div>
-                        <label for="estado_reparacion" value="En reparacion" class="form-label "><h6>Estado de Solicitud</h6></label>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="estado_reparar" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1">
-                                Pendiente
-                            </label>
-                        </div>              
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="estado_reparar" id="flexRadioDefault2" checked>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                En Reparacion
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="estado_reparar" id="flexRadioDefault2" checked>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Reparado
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="estado_reparar" id="flexRadioDefault2" checked>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Sin Solucion
-                            </label>
-                        </div>
-                        <div class="mb-3">
-                            <label for="dateLastUpdate" class="form-label">Fecha de ultima actualizacion de Reparacion:</label>
-                            <input type="date" class="form-control" id="dateLastUpdate" name="dateLastUpdate">
-                        </div>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" type="submit">Send</button>
-                            
-                        </div></form>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menu de Navegacion</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/ServicioTecnico/index.jsp">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ServicioTecnico/ControllerCliente?accion=form">Crear Orden de Servicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ServicioTecnico/ControllerCliente?accion=list">Listar Ordenes de Servicio</a>
+                        </li>
+                       
+                    </ul>
+                    <form class="d-flex" id="formulario" method="post" action="ControllerCliente">
+                        <input class="form-control me-2" id="txtBuscar" name="txtBuscar" type="search" placeholder="Buscar Numero de Orden " aria-label="Search">
+                        <input type="hidden" id="form" name="form" value="search"/>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
-        </div>
-
+        </nav>
     </body>
 </html>

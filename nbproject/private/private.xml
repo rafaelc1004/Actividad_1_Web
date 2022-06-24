@@ -3,7 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Rafaelito/Documents/Proyectos%20Java%202022/Netbeans%20JEE/ServicioTecnico/web/index.html</file>
+            <file>file:/C:/Users/Rafaelito/Documents/Proyectos%20Java%202022/Netbeans%20JEE/ServicioTecnico/src/java/JavaClass/OrdenServicio.java</file>
+            <file>file:/C:/Users/Rafaelito/Documents/Proyectos%20Java%202022/Netbeans%20JEE/ServicioTecnico/src/java/JavaClass/Electrodomestico.java</file>
+            <file>file:/C:/Users/Rafaelito/Documents/Proyectos%20Java%202022/Netbeans%20JEE/ServicioTecnico/web/WEB-INF/jsp/vista-cliente/vista-cliente.jsp</file>
+            <file>file:/C:/Users/Rafaelito/Documents/Proyectos%20Java%202022/Netbeans%20JEE/ServicioTecnico/web/index.jsp</file>
+            <file>file:/C:/Users/Rafaelito/Documents/Proyectos%20Java%202022/Netbeans%20JEE/ServicioTecnico/web/WEB-INF/jsp/vista-servicios/edit-servicio.jsp</file>
+            <file>file:/C:/Users/Rafaelito/Documents/Proyectos%20Java%202022/Netbeans%20JEE/ServicioTecnico/web/css/style.css</file>
+            <file>file:/C:/Users/Rafaelito/Documents/Proyectos%20Java%202022/Netbeans%20JEE/ServicioTecnico/web/WEB-INF/jsp/vista-servicios/form-servicio.jsp</file>
+            <file>file:/C:/Users/Rafaelito/Documents/Proyectos%20Java%202022/Netbeans%20JEE/ServicioTecnico/web/WEB-INF/jsp/vista-servicios/list-servicio.jsp</file>
+            <file>file:/C:/Users/Rafaelito/Documents/Proyectos%20Java%202022/Netbeans%20JEE/ServicioTecnico/src/java/Controller/ControllerCliente.java</file>
+            <file>file:/C:/Users/Rafaelito/Documents/Proyectos%20Java%202022/Netbeans%20JEE/ServicioTecnico/src/java/JavaClass/Cliente.java</file>
         </group>
     </open-files>
 </project-private>
