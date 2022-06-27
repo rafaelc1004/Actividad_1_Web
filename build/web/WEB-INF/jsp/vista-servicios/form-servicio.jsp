@@ -42,17 +42,17 @@
                 <form  class="p-3 rounded needs-validation " id="formularioCreate" method="post" action="ControllerCliente">
                     <div class="mb-3">
                         <label for="txtRut" class="form-label">Rut:</label>
-                        <input type="text" class="form-control" id="txtRut" placeholder="Ej. 12345678k" name="txtRut">
+                        <input type="text" class="form-control" id="txtRut" placeholder="Ej. 12345678-k" name="txtRut">
                         <div id="errorRut" class="mensajeError">El Valor ingresado no es valido!</div>
                     </div>
                     <div class="mb-3">
                         <label for="txtNombre" class="form-label">Nombres:</label>
-                        <input type="text" class="form-control" id="txtNombre" placeholder="Ej. Juanito Perez" name="txtNombre" onchange="onLimpiarEstilos('nombre')">
+                        <input type="text" class="form-control" id="txtNombre" placeholder="Ej. Juanito" name="txtNombre" onchange="onLimpiarEstilos('nombre')">
                         <div id="errorNombre" class="mensajeError">Nombre no puede estar vacio!</div>
                     </div><!-- comment -->
                     <div class="mb-3">
                         <label for="txtApellido" class="form-label">Apellidos:</label>
-                        <input type="text" class="form-control" id="txtApellido" placeholder="Ej. Juanito Perez" name="txtApellido">
+                        <input type="text" class="form-control" id="txtApellido" placeholder="Ej. Rojas Perez" name="txtApellido">
                         <div id="errorApellido" class="mensajeError">El Valor ingresado no es valido!</div>
                     </div>
                     <div class="mb-3">
@@ -62,7 +62,7 @@
                     </div>    
                     <div class="mb-3">
                         <label for="txtTelefono" class="form-label">Telefono:</label>
-                        <input type="text" class="form-control" id="txtTelefono" placeholder="Ej. 912345678" name="txtTelefono">
+                        <input type="text" class="form-control" id="txtTelefono" placeholder="Ej. 987654321" name="txtTelefono">
                         <div id="errorTelefono" class="mensajeError">El valor ingresado no es valido!</div>
                     </div>
                     <div class="mb-3">
@@ -202,13 +202,7 @@
 
                 });
                     
-                $("#txtFechaSolicitud").change(function(){
-                    const fechaSolicitud = $("#txtFechaSolicitud");
-                    const eFechaSolicitud =$('#errorFechaSolicitud');
-                    eFechaSolicitud.removeClass("mostrar");
-                    fechaSolicitud.removeClass("error");
-
-                });
+               
                     
             });
                 
