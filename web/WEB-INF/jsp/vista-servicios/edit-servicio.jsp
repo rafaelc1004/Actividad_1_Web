@@ -43,6 +43,10 @@
         <title>Actualizacion de Estado</title>
     </head>
     <body> 
+        
+        <header>
+            <jsp:include page="/WEB-INF/include/header.jsp" />
+        </header>
 
         <div class="container">
             <div class="row justify-content-center mb-3 mt-3">

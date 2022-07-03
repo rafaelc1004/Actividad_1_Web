@@ -15,11 +15,9 @@
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
         <link href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet"/>
-        <script src="../../JQuery/jQuery3.5.1.js" type="text/javascript"></script>
-        <script src="../../JQuery/dataTable1.12.1.min.js" type="text/javascript"></script>
         <link href="../../css/datatable.min.css" rel="stylesheet" type="text/css"/>
-       
-    <title>Lista de Ordenes</title>
+
+        <title>Lista de Ordenes</title>
         <style>
             .centrado{
                 text-align: center;
@@ -29,16 +27,20 @@
             .tamanio{
                 font-size: 11px;
             }
-            
-            
+
+
 
         </style>
 
     </head>
     <body>
-        
+
+        <header>
+            <jsp:include page="/WEB-INF/include/header.jsp" />
+        </header>
+
         <div class="container">
-            
+
             <table id="example" class="table table-success table-striped tamanio display mt-3" >
                 <h1 class="centrado">Lista de Ordenes de Servicio</h1>
                 <thead>
@@ -79,13 +81,8 @@
                 });   
              
             </script>
-            
-            
-            
-            <a href="/ServicioTecnico/index.jsp">Volver al inicio</a>
 
-       
         </div>
-        
+
     </body>
 </html>

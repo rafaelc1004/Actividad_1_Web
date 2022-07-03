@@ -17,6 +17,9 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <header>
+            <jsp:include page="/WEB-INF/include/header.jsp" />
+        </header>
         <div class="container">
             <div class="row justify-content-center mb-3 mt-3">
                 <div class="fondo card col-md-6">
@@ -67,7 +70,6 @@
                         </div>
 
                     </form>
-                    <a href="/ServicioTecnico/index.jsp">Volver al inicio</a>
                 </div>
             </div>
         </div> 
